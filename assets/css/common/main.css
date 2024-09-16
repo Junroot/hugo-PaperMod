@@ -31,6 +31,11 @@
 .social-icons a {
     display: inline-flex;
     padding: 10px;
+    border: 0px;
+}
+
+.social-icons a:hover {
+    border: 0px;
 }
 
 .social-icons a svg {
