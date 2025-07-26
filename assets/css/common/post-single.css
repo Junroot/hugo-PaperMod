@@ -36,6 +36,7 @@
     color: var(--content);
 }
 
+.post-content h2,
 .post-content h3,
 .post-content h4,
 .post-content h5,
@@ -45,28 +46,27 @@
 
 .post-content h1 {
     margin: 40px auto 32px;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .post-content h2 {
-    margin: 32px auto 24px;
-    font-size: 32px;
-}
-
-.post-content h3 {
     font-size: 24px;
 }
 
+.post-content h3 {
+    font-size: 18px;
+}
+
 .post-content h4 {
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .post-content h5 {
-    font-size: 14px;
+    font-size: 11px;
 }
 
 .post-content h6 {
-    font-size: 12px;
+    font-size: 9px;
 }
 
 .post-content a,
@@ -191,8 +191,8 @@
 
 .post-content code {
     margin: auto 4px;
-    padding: 4px 6px;
-    font-size: 0.78em;
+    padding: 2px 5px;
+    font-size: 0.85em;
     line-height: 1.5;
     background: var(--code-bg);
     border-radius: 2px;
